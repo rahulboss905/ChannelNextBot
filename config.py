@@ -13,13 +13,13 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "[🔔](https://telegra.ph/file/075be9289ec1e88dd1405.png) **FORCE SUBSCRIBE :**\n\nForce Group Members To Join A Specific Channel Before Sending Messages in The Group.\nI Will Mute Members if They Not Joined Your Channel And Tell Them To Join The Channel And Unmute Themself By Pressing A Button.",
+        "[🔔](https://telegra.ph/file/075be9289ec1e88dd1405.png) **FORCE SUBSCRIBE:**\n\nForce group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.",
         
-        "[⚙](https://telegra.ph/file/20ccd719d703b425a8e66.png) **SETUP :**\n\nFirst Of All Add Me In The Group As Admin With Ban Users Permission And In The Channel As Admin.\n● Note: Only Creator Of The Group Can Setup Me.",
+        "[⚙](https://telegra.ph/file/2e8c811f8e3e99f340b3d.png) **SETUP:**\n\nFirst of all add me in the group as admin with ban users permission and in the channel as admin.\n● Note: Only creator of the group can setup me.",
         
-        "[⚙](https://i.imgur.com/LnOEiTK.jpg) **COMMMANDS :**\n\n/ForceSubscribe - To Get The Current Settings.\n/ForceSubscribe no/off/disable - To Turn Of ForceSubscribe.\n/ForceSubscribe {Channel Username} - To Turn On And Setup The Channel.\n/ForceSubscribe clear - To Unmute All Members Who Muted By Me.\n\n● Note: /FSub Is An Alias Of /ForceSubscribe",
+        "[⚙](https://telegra.ph/file/ac265de1a3e8de3d85ffa.png) **COMMANDS:**\n\n/forcesubscribe - To get the current settings.\n/forcesubscribe no/off/disable - To turn of ForceSubscribe.\n/forcesubscribe {Channel Username} - To turn on and setup the channel.\n/forcesubscribe clear - To unmute all members who muted by me.\n\n● Note: /fsub is an alias of /forcesubscribe",
         
         "[👨‍💻](https://telegra.ph/file/f2b08ba94ebd139d9da96.jpg) **Developed with ❤️ by @SarahMaiaOff**"
       ]
 
-      START_MSG = "**Hey! [👋](https://telegra.ph/file/075be9289ec1e88dd1405.png) [{}](tg://user?id={})**\n\n● I Can Force Members To Join A Specific Channel Before Writing Messages In The Group.\n● Learn More At 👉 /help"
+      START_MSG = "**Hello! [👋](https://telegra.ph/file/075be9289ec1e88dd1405.png) [{}](tg://user?id={})**\n\n● I can force members to join a specific channel before writing messages in the group.\n● learn more at 👉 /help"
