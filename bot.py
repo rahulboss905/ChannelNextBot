@@ -42,7 +42,7 @@ async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = users_collection.find_one({"user_id": user_id})
 
     if user:
-        await update.message.reply_text(f"ðŸ“‹ Your info:
+        await update.message.reply_text(f"ðŸ“‹ Your info:\nName: {user.get('name')}\nUser ID: {user_id}")
 Name: {user.get('name')}
 User ID: {user_id}")
     else:
