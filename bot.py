@@ -44,7 +44,7 @@ async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if user:
         await update.message.reply_text(f"ðŸ“‹ Your info:\nName: {user.get('name')}\nUser ID: {user_id}")
 Name: {user.get('name')}
-User ID: {user_id}")
+print(f"User ID: {user_id}")
     else:
         await update.message.reply_text("âš ï¸ You are not registered. Use /start first.")
 
